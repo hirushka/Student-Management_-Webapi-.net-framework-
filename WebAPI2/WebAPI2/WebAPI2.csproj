@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210902145522_DropStudentStudentId.cs" />
+    <Compile Remove="Migrations\20210902145522_DropStudentStudentId.Designer.cs" />
+    <Compile Remove="Migrations\20210904114308_ForeignKeyStudent.cs" />
+    <Compile Remove="Migrations\20210904114308_ForeignKeyStudent.Designer.cs" />
+    <Compile Remove="Migrations\20210904115834_ForeignKeyStudent.cs" />
+    <Compile Remove="Migrations\20210904115834_ForeignKeyStudent.Designer.cs" />
+    <Compile Remove="Migrations\20210904115955_ForeignKeyStudent.cs" />
+    <Compile Remove="Migrations\20210904115955_ForeignKeyStudent.Designer.cs" />
+    <Compile Remove="Migrations\20210904120539_ForeignKeyStudent.cs" />
+    <Compile Remove="Migrations\20210904120539_ForeignKeyStudent.Designer.cs" />
+    <Compile Remove="Migrations\20210904120632_ForeignKeyStudent.cs" />
+    <Compile Remove="Migrations\20210904120632_ForeignKeyStudent.Designer.cs" />
+    <Compile Remove="Migrations\20210904120729_ForeignKeyStudent.cs" />
+    <Compile Remove="Migrations\20210904120729_ForeignKeyStudent.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+
+</Project>
